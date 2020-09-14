@@ -1,0 +1,46 @@
+{
+  "name": "concert-venue",
+  "version": "1.0.0",
+  "description": "SPA for Concert Tickets",
+  "keywords": [
+    "react",
+    "javascript",
+    "material-ui",
+    "react.js"
+  ],
+  "main": "src/index.js",
+  "dependencies": {
+    "@material-ui/core": "^4.11.0",
+    "@material-ui/icons": "4.9.1",
+    "animate": "1.0.0",
+    "firebase": "7.20.0",
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
+    "react-reveal": "1.2.2",
+    "react-router-dom": "5.2.0",
+    "react-scripts": "3.4.3",
+    "react-scroll": "1.8.1",
+    "react-slick": "0.27.11"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "author": "Cletus",
+  "license": "ISC",
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
