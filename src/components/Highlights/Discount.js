@@ -18,6 +18,7 @@ const Discount = () => {
 		}
   };
   
+ 
 	useEffect(() => {
 		setTimeout(() => {
 			percentage();

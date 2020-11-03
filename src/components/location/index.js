@@ -10,7 +10,7 @@ const Location = () => {
 				height='450'
 				frameBorder='0'
 				border='0'
-				allowfullscreen
+				allowFullScreen
 			/>
 
 			<div className='location_tag'>
