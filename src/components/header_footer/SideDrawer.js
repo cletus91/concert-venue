@@ -4,21 +4,21 @@ import Drawer from "@material-ui/core/Drawer";
 import List from "@material-ui/core/List";
 import ListItem from "@material-ui/core/ListItem";
 
-const SideDrawer = props => {
+const SideDrawer = ({onClose, open}) => {
   const scrollToElement = element => {
     scroller.scrollTo(element, {
       duration: 1500,
       delay: 100,
       smooth: true
     });
-    props.onClose(false);
+    onClose(false);
   };
 
   return (
     <Drawer
       anchor="right"
-      open={props.open}
-      onClose={() => props.onClose(false)}
+      open={open}
+      onClose={() => onClose(false)}
     >
       <List component="nav">
         <ListItem button onClick={() => scrollToElement("event")}>
